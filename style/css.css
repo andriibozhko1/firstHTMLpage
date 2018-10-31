@@ -1,17 +1,22 @@
 *{
+	max-width: 800px;
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
 	box-sizing: border-box;
+	margin: auto;
 }
 .notif{
 	height: 60px;
+	width:100%;
 	background: #000;
 	color:#fff;
 	text-align: center;
 	padding-top: 18px;
 	font-size: 22px;
 	font-weight: lighter;
+	position: fixed;
+	margin-bottom: 100px;
 }
 .active{
 	color:#fff;
@@ -31,17 +36,17 @@ header{
 }
 .logo{
 	float: left;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
-	margin: 30px 0 0 40px;
+	margin: 70px 0 0 40px;
 }
 .contact{
 	float: right;
-	margin:30px 40px 0 0;
+	margin:70px 40px 0 0;
 }
 .contact li{
 	display: inline-block;
-	font-size: 40px;
+	font-size: 20px;
 	padding: 10px;
 }
 .contact a{
@@ -53,7 +58,7 @@ header{
 }
 .title{
 	text-align: center;
-	font-size: 40px;
+	font-size: 20px;
 	width: 60%;
 	margin:40px auto;
 }
@@ -85,7 +90,7 @@ span{
 }
 .gray-block{
 	height: 100px;
-	width: 50%;
+	width: 100%;
 	margin: auto;
 	background: #EEE;
 	margin-bottom: 50px;
@@ -96,7 +101,8 @@ span{
 	margin: auto;
 	background: #000;
 	color:#fff;
-	margin-top: 5px;
+	margin-top: 50px;
+	border:solid;
 }
 .main-text{
 	font-size: 100px;
