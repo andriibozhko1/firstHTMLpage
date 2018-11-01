@@ -1,252 +1,248 @@
 *{
-	max-width: 800px;
-	padding: 0;
-	margin: 0;
-	font-family: 'Nunito', sans-serif;
-	box-sizing: border-box;
-	margin: auto;
+     max-width: 800px;
+     padding: 0;
+     margin: 0;
+     font-family: 'Nunito', sans-serif;
+     box-sizing: border-box;
+     margin: auto;
 }
-.notif{
-	height: 60px;
-	width:100%;
-	background: #000;
-	color:#fff;
-	text-align: center;
-	padding-top: 18px;
-	font-size: 22px;
-	font-weight: lighter;
-	position: fixed;
-	margin-bottom: 100px;
+ .notif{
+     height: 60px;
+     width:100%;
+     background: #000;
+     color:#fff;
+     text-align: center;
+     padding-top: 18px;
+     font-size: 22px;
+     font-weight: lighter;
+     position: fixed;
+     margin-bottom: 100px;
 }
-.active{
-	color:#fff;
-	text-decoration: none;
-	border-bottom: 2px solid #fff;
+ .active{
+     color:#fff;
+     text-decoration: none;
+     border-bottom: 2px solid #fff;
 }
-.header{
-	min-height: 600px;
+ .header{
+     min-height: 600px;
 }
-.clearfix{
-	content: '';
-	display: table;
-	clear: both;
+ .clearfix{
+     content: '';
+     display: table;
+     clear: both;
 }
-.navigation{
-	width: 100%;
-	position: fixed;
-	background: #fff;
-	top: 60px;
+ .navigation{
+     width: 100%;
+     position: fixed;
+     background: #fff;
+     top: 60px;
 }
-.logo{
-	float: left;
-	font-size: 30px;
-	font-weight: bold;
-	margin: 0px 0 0 40px;
+ .logo{
+     float: left;
+     font-size: 30px;
+     font-weight: bold;
+     margin: 0px 0 0 40px;
 }
-.contact{
-	float: right;
-	margin:0px 40px 0 0;
+ .contact{
+     float: right;
+     margin:0px 40px 0 0;
 }
-.contact li{
-	display: inline-block;
-	font-size: 20px;
-	padding: 10px;
+ .contact li{
+     display: inline-block;
+     font-size: 20px;
+     padding: 10px;
 }
-.contact a{
-	text-decoration: none;
-	color:#000;
-	margin-left: 20px;
-	display: block;
-	font-weight: bold;
+ .contact a{
+     text-decoration: none;
+     color:#000;
+     margin-left: 20px;
+     display: block;
+     font-weight: bold;
 }
-.title{
-	text-align: center;
-	font-size: 20px;
-	width: 60%;
-	padding-top: 200px;
+ .title{
+     text-align: center;
+     font-size: 20px;
+     width: 60%;
+     padding-top: 200px;
 }
-.title img{
-	width: 50px;
-	margin-top: 20px;
+ .title img{
+     width: 50px;
+     margin-top: 20px;
 }
-.carts{
-	margin-bottom: 50px;
+ .carts{
+     margin-bottom: 50px;
 }
-.carts img{
-	width: 100%;
+ .carts img{
+     width: 100%;
 }
-.comments{
-	font-weight: bold;
-	font-size: 40px;
-	margin-left: 40px;
-	float: left;
-	margin-top: 30px;
+ .comments{
+     font-weight: bold;
+     font-size: 40px;
+     margin-left: 40px;
+     float: left;
+     margin-top: 30px;
 }
-.right-arrow img{
-	width: 50px;
-	float: right;
-	margin-right: 20px;
-	cursor: pointer;
-	margin-top: 30px;
+ .right-arrow img{
+     width: 50px;
+     float: right;
+     margin-right: 20px;
+     cursor: pointer;
+     margin-top: 30px;
 }
-.gray-block{
-	height: 100px;
-	width: 100%;
-	margin: auto;
-	background: #EEE;
-	margin-bottom: 50px;
+ .gray-block{
+     height: 100px;
+     width: 100%;
+     margin: auto;
+     background: #EEE;
+     margin-bottom: 50px;
 }
-.black-box{
-	height: 600px;
-	width: 100%;
-	margin: auto;
-	background: #000;
-	color:#fff;
-	margin-top: 50px;
-	border:solid;
+ .black-box{
+     height: 600px;
+     width: 100%;
+     margin: auto;
+     background: #000;
+     color:#fff;
+     margin-top: 50px;
+     border:solid;
 }
-.main-text{
-	font-size: 100px;
-	padding-left: 40px;
-	height: 500px;
+ .main-text{
+     font-size: 100px;
+     padding-left: 40px;
+     height: 500px;
 }
-footer{
-	height: 100px;
+ footer{
+     height: 100px;
 }
-.privacy-policy{
-	text-align: center;
-	margin: auto;
-	font-size: 20px;
-	font-weight: bold;
+ .privacy-policy{
+     text-align: center;
+     margin: auto;
+     font-size: 20px;
+     font-weight: bold;
 }
-.email{
-	float: left;
-	width: 300px;
-	height: 100%;
-	font-size:20px;
-	font-weight: bold;
-	margin:20px 0 0 30px;
+ .email{
+     float: left;
+     width: 300px;
+     height: 100%;
+     font-size:20px;
+     font-weight: bold;
+     margin:20px 0 0 30px;
 }
-.language{
-	float: right;
-	width: 300px;
-	height: 100%;
-	margin-top: 20px;
+ .language{
+     float: right;
+     width: 300px;
+     height: 100%;
+     margin-top: 20px;
 }
-.footer-bottom{
-	width: 100%;
+ .footer-bottom{
+     width: 100%;
 }
-.language li{
-	list-style: none;
-	display: inline-block;
-	font-size: 25px;
-	margin-left: 10px;
+ .language li{
+     list-style: none;
+     display: inline-block;
+     font-size: 25px;
+     margin-left: 10px;
 }
-.language a{
-	text-decoration: none;
-	color:#000;
+ .language a{
+     text-decoration: none;
+     color:#000;
 }
-.language a:hover{
-	border-bottom: 1px solid #000;
+ .language a:hover{
+     border-bottom: 1px solid #000;
 }
-.email a{
-	color:#000;
-	text-decoration: none;
+ .email a{
+     color:#000;
+     text-decoration: none;
 }
-.email a:hover{
-	border-bottom: 2px solid #000;
+ .email a:hover{
+     border-bottom: 2px solid #000;
 }
-.wrapper{
-	display: none;
+ .wrapper{
+     display: none;
 }
-@media screen and (max-width: 1024px) {
-	.notif{
-		font-size: 15px
-	}
-	.navigation{
-		display: none;
-	}
-	.wrapper{
-		font-size: 30px;
-		margin-top: 60px;
-		position: fixed;
-		width: 100%;
-		color:#000;
-		background: #fff;
-		text-align: center;
-		display: block;
-	}
-	#check-menu{
-		display: none;
-	}
-	.menu-label{
-		display: block;
-    height: 100%;
-    line-height: 40px;
-    cursor: pointer;
-    text-align: left;
-    padding:5px 0 0 30px;
-	}
-	.burger-line{
-		position: absolute;
-    top: 8px;
-    right: 10px;
-    width: 35px;
-    height: 2px;
-    background-color: #fff;
-    transition: .5s all;
-    border: solid;
-    cursor: pointer;
-	}
-	.second, .third{
-    top: 18px;
-	}
-
-	.fourth{
-	    top: 28px;
-	}
-	.main-menu{
-	    display: block;
-	    position: absolute;
-	    width: 100%;
-	    bottom: 0;
-	    left: 0;
-	    transform: translateY(100%);
-	    max-height: 0;
-	    font-size: 0;
-	    overflow: hidden;
-	    transition: .5s all;
-	  }
-	.link{
-		height: 150px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
-    border-top: 1px solid rgba(255,255,255,.3);
-    background:#fff;
-    font-size: 30px;
-    line-height:150px;
-    z-index: 10;
-	}
-	#check-menu:checked ~ .main-menu{
-    max-height: 700px;
-    font-size: 16px;
-}
-#check-menu:checked ~ .first{
-    display: none;
-}
-
-#check-menu:checked ~ .second{
-    transform: rotate(45deg);
-}
-
-#check-menu:checked ~ .third{
-    transform: rotate(-45deg);
-}
-
-#check-menu:checked ~ .fourth{
-    display: none;
-}
+ @media screen and (max-width: 1024px) {
+     .notif{
+         font-size: 15px 
+    }
+     .navigation{
+         display: none;
+    }
+     .wrapper{
+         font-size: 30px;
+         margin-top: 60px;
+         position: fixed;
+         width: 100%;
+         color:#000;
+         background: #fff;
+         text-align: center;
+         display: block;
+    }
+     #check-menu{
+         display: none;
+    }
+     .menu-label{
+         display: block;
+         height: 100%;
+         line-height: 40px;
+         cursor: pointer;
+         text-align: left;
+         padding:5px 0 0 30px;
+    }
+     .burger-line{
+         position: absolute;
+         top: 8px;
+         right: 10px;
+         width: 35px;
+         height: 2px;
+         background-color: #fff;
+         transition: .5s all;
+         border: solid;
+         cursor: pointer;
+    }
+     .second, .third{
+         top: 18px;
+    }
+     .fourth{
+         top: 28px;
+    }
+     .main-menu{
+         display: block;
+         position: absolute;
+         width: 100%;
+         bottom: 0;
+         left: 0;
+         transform: translateY(100%);
+         max-height: 0;
+         font-size: 0;
+         overflow: hidden;
+         transition: .5s all;
+    }
+     .link{
+         height: 150px;
+         display: block;
+         width: 100%;
+         padding: 10px;
+         color: black;
+         text-decoration: none;
+         border-top: 1px solid rgba(255,255,255,.3);
+         background:#fff;
+         font-size: 30px;
+         line-height:150px;
+         z-index: 10;
+    }
+     #check-menu:checked ~ .main-menu{
+         max-height: 700px;
+         font-size: 16px;
+    }
+     #check-menu:checked ~ .first{
+         display: none;
+    }
+     #check-menu:checked ~ .second{
+         transform: rotate(45deg);
+    }
+     #check-menu:checked ~ .third{
+         transform: rotate(-45deg);
+    }
+     #check-menu:checked ~ .fourth{
+         display: none;
+    }
 }
